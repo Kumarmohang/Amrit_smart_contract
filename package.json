@@ -1,0 +1,29 @@
+{
+  "name": "Amrit Token Smart Contract",
+  "version": "1.0.0",
+  "description": "This repository contains ERC20 Token Smart contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "4.1.0",
+    "dotenv": "^10.0.0",
+    "truffle": "^5.5.18",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "truffle-plugin-verify": "^0.5.32"
+  }
+}
